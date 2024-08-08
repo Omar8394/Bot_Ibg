@@ -1,0 +1,18 @@
+{
+    "clientes": [
+        {
+            "informacion": "245609876543-julian jose",
+            "usuario": " (@omar8394)",
+            "status": "Pendiente",
+            "cantidad_a_enviar": 9.1455,
+            "denominacion": "Brl"
+        },
+        {
+            "informacion": "6767565757-pedro matheus",
+            "usuario": " (@omar8394)",
+            "cantidad_a_enviar": 22.144199999999998,
+            "denominacion": "Brl",
+            "status": "Pendiente"
+        }
+    ]
+}
