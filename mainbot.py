@@ -1283,6 +1283,7 @@ def transaccionUSAVENEZUELA(m):
         print(total)
         destino.append('VENEZUELA')
         clientes.append(total)
+        tasa.append(tasas)
         bot.send_message(cid,"la tasa de cambio para Venezuela  es de 35 Bolivares por dolar, usted recibira un total de:"+ str(total) +", pulse el comando /Procesar ,para procesar transaccion")                        
     except ValueError:
         jid=bot.send_message(cid,"Por favor introduzca una cantidad valida") 
@@ -1818,7 +1819,7 @@ def capturar_datos(message):
     print(message.text)
     markup = types.ReplyKeyboardMarkup()
     mensaje =  " (@" + str(message.from_user.username) + ")"
-    admin="(@Pedromatheus100)"
+    admin="(@IberoGestion)"
     data = {}
     data['clientes'] = []
     data['clientes'].append({
